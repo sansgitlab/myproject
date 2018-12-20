@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Buil') {
+    stage('Build') {
       steps {
-        sh 'cd /home/akanksha/myproject/; sh jenkinstest.sh'
+        sh 'cd /home/akanksha/myproject/; sh ./jenkinstest.sh;'
       }
     }
   }
