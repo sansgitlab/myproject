@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'cd /home/akanksha/myproject/; sh ./jenkinstest.sh;'
+        sh 'cd /home/akanksha/myproject/; sh jenkinstest.sh;'
       }
     }
   }
